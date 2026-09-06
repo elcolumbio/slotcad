@@ -1,0 +1,532 @@
+[
+  {
+    "id": "motedis",
+    "name": "Motedis",
+    "region": "EU",
+    "cad": {
+      "formats": ["STEP", "ZIP", "PDF"],
+      "url": "https://www.motedis.com/en/cad-database",
+      "account_required": false,
+      "fetched": "2026-09-06"
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.motedis.com/en/conditions-of-use:_:3.html",
+      "quote": "On drawings, constructions and other documents from us we reserve property rights and copyright exploitation rights unrestricted before; The customer must not have access to these third parties do. Drawings and other documents belonging to offers are, if the order is not placed with us, it will be returned immediately upon request to give.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "I-Type slot 5", "slots": ["slot 5", "Nut 5"], "notes": "e.g. 20x20 I-Type slot 5; core for M5"},
+      {"name": "B-Type slot 6", "slots": ["slot 6", "Nut 6"], "notes": "e.g. 20x20 B-type slot 6; 4 open grooves; core for M6"},
+      {"name": "B-Type slot 8", "slots": ["slot 8", "Nut 8"], "notes": "e.g. 30x30 B-Type slot 8"},
+      {"name": "I-Type slot 8", "slots": ["slot 8", "Nut 8"], "notes": "e.g. 40x40L I-Type slot 8"},
+      {"name": "B-Type slot 10", "slots": ["slot 10", "Nut 10"], "notes": "e.g. 45x45 B-Type slot 10; 40x40 B-type slot 10"}
+    ],
+    "stock": {
+      "lengths_mm": [500, 1000, 1500, 1980, 6000],
+      "min_cut_mm": 50,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://www.motedis.es/en/Profile-20x20-B-type-slot-6",
+      "fetched": "2026-09-06"
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": false,
+      "notes": "No traditional affiliate programme confirmed 2026-09-06. Kit 'idea fee' lets users publish kits and earn a self-set fee (https://www.motedis.com/shop/create_offers_kit.php?oID=). Efficiency Club for repeat self-service buyers (discounts + features) at https://www.motedis.com/en/efficiency-club. Same list prices for private and business; bulk/'big customers' login for some cut options. No public price API found.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "20x20 B-Typ Nut 6",
+      "20x20 B-type slot 6",
+      "20x20 I-Type slot 5",
+      "30x30 B-Type Slot 8",
+      "40x40L I-Type slot 8",
+      "45x45 B-Type slot 10"
+    ]
+  },
+  {
+    "id": "item",
+    "name": "item Industrietechnik",
+    "region": "EU",
+    "cad": {
+      "formats": ["STEP", "many via TraceParts / Engineeringtool"],
+      "url": "https://www.item24.com/en-de/theme-world/building-kit-system/aluminium-profiles",
+      "account_required": true,
+      "fetched": "2026-09-06",
+      "notes": "CAD also on TraceParts; full download/save typically needs item account. Engineeringtool can export CAD. Product pages offer 'Get CAD Data and Downloads'."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.item24.com/en-de/legal/terms-and-conditions",
+      "quote": "This also applies if we have provided the Buyer with catalogues, technical documentation (e.g. drawings, plans, calculations, reference to DIN standards), other product descriptions or documents – also in electronic form – to which we reserve ownership rights and copyrights; they may not be reproduced and made accessible to third parties without our express consent in writing. (GTC §2(1), Issued: July 2023). Platform T&Cs: Users can download the item CAD data for all item Products and use it for their application-related purposes; further use beyond Clause 21.1 purposes is prohibited (https://www.item24.com/en-gb/legal/platform-usage-agreement, Dated: May 2026).",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "Line 5 / Profile 5", "slots": ["Line 5", "Nut 5", "slot 5"], "notes": "e.g. Profile 5 20x20; modular dimension Line 5"},
+      {"name": "Line 6 / Profile 6", "slots": ["Line 6", "Nut 6", "slot 6"], "notes": "standard / light / economy (E)"},
+      {"name": "Line 8 / Profile 8", "slots": ["Line 8", "Nut 8", "slot 8"], "notes": "e.g. 40x40 Line 8; standard / light / economy"},
+      {"name": "Line 10 / Profile 10", "slots": ["Line 10", "Nut 10", "slot 10"], "notes": "economy (E) variant available"},
+      {"name": "Line 12 / Profile 12", "slots": ["Line 12", "Nut 12", "slot 12"], "notes": "heavy-duty"}
+    ],
+    "stock": {
+      "lengths_mm": [6000],
+      "min_cut_mm": 20,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://www.traceparts.com/en/product/item-industrietechnik-gmbh-profile-6-60x60-natural?CatalogPath=ITEM:1001042790&Product=30-12112020-080052",
+      "fetched": "2026-09-06",
+      "notes": "TraceParts lists delivery unit cut-off max. 6000 mm; length selector >20 .. 6000. Confirm on item shop for live stock lengths."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "Free Engineeringtool / Online Tools (browser 3D). Marketplace for B2B. No public affiliate programme found 2026-09-06. No public price API found. Cart/quote via platform after design.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "Profile 5 20x20",
+      "Line 5 20x20",
+      "Profile 8 40x40",
+      "Line 8 40x40",
+      "Profil 5",
+      "Profil 8"
+    ]
+  },
+  {
+    "id": "bosch-rexroth",
+    "name": "Bosch Rexroth (aluminium profiles / EcoShape / strut)",
+    "region": "EU/US",
+    "cad": {
+      "formats": ["STEP", "via MTpro / FRAMEpro / TraceParts / Rexroth Store"],
+      "url": "https://www.boschrexroth.com/en/us/products/industrial-solutions/assembly-technology/aluminum-profile-kit/framepro-cad-plug-in/",
+      "account_required": true,
+      "fetched": "2026-09-06",
+      "notes": "FRAMEpro plug-in for Inventor/SolidWorks; MTpro planning software exports common CAD formats; EcoShape and strut components also on TraceParts. Account/registration typically required for software and store CAD."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.boschrexroth.com/en/us/products/industrial-solutions/assembly-technology/aluminum-profile-kit/framepro-cad-plug-in/",
+      "quote": "unverified — no primary Bosch Rexroth CAD-redistribution clause located as a clean public quote on 2026-09-06. Industrial practice and software EULAs for MTpro/FRAMEpro imply non-redistribution of vendor solids; treat STEP as non-redistributable until a written licence is obtained. Tried vendor store / FRAMEpro pages; full CAD ToS text not extracted.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "6 mm slot / 20 mm modular", "slots": ["slot 6", "6 mm"], "notes": "strut profiles e.g. 20x20, 20x40"},
+      {"name": "8 mm slot / 30 mm modular", "slots": ["slot 8", "8 mm"], "notes": "e.g. 30x30"},
+      {"name": "8 mm slot / 40 mm modular", "slots": ["slot 8", "8 mm"], "notes": "40 mm grid"},
+      {"name": "10 mm slot / 45 mm modular", "slots": ["slot 10", "10 mm"], "notes": "e.g. 45x45, 45x90L"},
+      {"name": "10 mm slot / 50 mm modular", "slots": ["slot 10", "10 mm"], "notes": ""},
+      {"name": "10 mm slot / 60 mm modular", "slots": ["slot 10", "10 mm"], "notes": ""},
+      {"name": "EcoShape tubular", "slots": ["10 mm integrated slot"], "notes": "D28L round tube; T-slot enabled; compatible with modular aluminium framing"}
+    ],
+    "stock": {
+      "lengths_mm": [6070],
+      "min_cut_mm": 50,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://esd.equipment/dokumente/bosch-rexroth/sonstiges/aluminum-structural-framing-system-en.pdf",
+      "fetched": "2026-09-06",
+      "notes": "Packaging units commonly 6070 mm usable length (actual ~100 mm longer for anodising contact areas). Variable cut-to-length e.g. 50…6070 mm listed on product datasheets."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "Free MTpro and FRAMEpro. No public affiliate programme found. Distribution via Rexroth and authorised partners. No public price API found.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "strut profile 45x45",
+      "45x45L",
+      "MGE Basic Mechanic Elements",
+      "EcoShape D28L",
+      "10 mm slot 45 mm modular"
+    ]
+  },
+  {
+    "id": "misumi",
+    "name": "Misumi",
+    "region": "EU/US/JP",
+    "cad": {
+      "formats": ["STEP", "Parasolid", "DXF", "2D/3D CAD from product pages", "FRAMES export"],
+      "url": "https://us.misumi-ec.com/",
+      "account_required": true,
+      "fetched": "2026-09-06",
+      "notes": "CAD download from product pages requires login. FRAMES free design software exports STEP/Parasolid/DXF. UK: https://uk.misumi-ec.com/en/services/frames/"
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://us.misumi-ec.com/service/info/terms/",
+      "quote": "Without prior approval from MISUMI, no part of the Data may be utilized (reproduced, modified, reverse-engineered, uploaded, presented, sent, distributed, licensed, sold, or published) for any purpose other than that mentioned above. (CAD Terms — purpose limited to informing customers of product characteristics for use in their designs.) FRAMES EULA: You may not copy, share, or distribute such Documentation to any third party without express permission from MISUMI. … ordering products from third parties based on the Documentation is strictly prohibited. (https://us.misumi-ec.com/service/promotion/frames/frames-end-user-license-agreement.html)",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "MISUMI aluminium extrusions (configurable)", "slots": ["unverified — product-dependent"], "notes": "Configurable frame profiles ordered by MISUMI part numbers; FRAMES catalogues MISUMI profiles. Exact slot naming map unverified without live catalogue scrape."}
+    ],
+    "stock": {
+      "lengths_mm": [],
+      "min_cut_mm": null,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://us.misumi-ec.com/",
+      "fetched": "2026-09-06",
+      "notes": "Configurable cut lengths via e-catalog / FRAMES; specific stock bar lengths and tolerances unverified on 2026-09-06."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "FRAMES free (registration + login). meviy related services have separate EULAs. No public affiliate programme found for MISUMI aluminium frames. Instant quote/order via account; no public open price API found.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "MISUMI FRAMES",
+      "aluminium frame construction MISUMI"
+    ]
+  },
+  {
+    "id": "8020",
+    "name": "80/20 Inc",
+    "region": "US",
+    "cad": {
+      "formats": ["STEP", "SolidWorks", "Inventor", "DXF", "SketchUp", "via PartSource / product pages / IdeaBuilder"],
+      "url": "https://8020.net/design-software",
+      "account_required": false,
+      "fetched": "2026-09-06",
+      "notes": "Free CAD library, IdeaBuilder (web, STEP export), AutoQuoterSW, AutoQuoterX. PartSource/PARTcommunity also hosts models. Some tools may prompt registration."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://8020.net/terms-conditions",
+      "quote": "80/20 PROPERTY. All photographs, samples, descriptions, drawings or intellectual property provided by 80/20 to Buyer shall remain the property of 80/20 and shall only be used by Buyer to market 80/20 products to third parties. Buyer shall include in any materials incorporating 80/20 intellectual property, all copyright and trademark notices provided by 80/20. All such property shall be returned to 80/20 upon demand and any license created hereunder, implied or otherwise, is terminable at will by 80/20.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "15 Series", "slots": ["1515", "15 Series"], "notes": "1.5 in fractional T-slot family"},
+      {"name": "10 Series", "slots": ["1010", "10 Series"], "notes": "1.0 in"},
+      {"name": "25 Series", "slots": ["25 Series"], "notes": ""},
+      {"name": "40 Series", "slots": ["40 Series"], "notes": ""},
+      {"name": "Metric Series", "slots": ["metric T-slot"], "notes": "metric profiles also offered — exact slot names unverified here"}
+    ],
+    "stock": {
+      "lengths_mm": [],
+      "min_cut_mm": null,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://8020.net/",
+      "fetched": "2026-09-06",
+      "notes": "Cut-to-length and machining widely offered; stock bar lengths in inches (commonly up to ~8–20 ft depending on profile) — exact mm list unverified on 2026-09-06 without product-page scrape."
+    },
+    "monetisation": {
+      "affiliate": true,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "Affiliate Program Terms at https://8020.net/amasty-affiliate-conditions (page behind Cloudflare challenge on fetch; existence confirmed via search index 2026-09-06). Distributor/trade network. Free IdeaBuilder, AutoQuoter plugins. No public price API found; IdeaBuilder can export XML for ordering via distributors.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "1515",
+      "1010",
+      "15 Series",
+      "10 Series",
+      "T-slot 80/20"
+    ]
+  },
+  {
+    "id": "maytec",
+    "name": "MayTec",
+    "region": "EU/US/AU",
+    "cad": {
+      "formats": ["STEP", "DXF", "PDF via MayCad export"],
+      "url": "https://www.maytec.de/en/maycad/",
+      "account_required": true,
+      "fetched": "2026-09-06",
+      "notes": "MayCad® proprietary design software free for authorised users / via partners; exports assembly as 3D STEP. Direct bulk STEP library not publicly listed like Motedis CAD database."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.maytec.de/en/maycad/",
+      "quote": "unverified — MayCad described as proprietary and 'only available directly from MayTec or one of our authorized partners' (https://www.maytec.de/en/maycad/). No public CAD-redistribution licence text located on 2026-09-06. Treat STEP exports as non-redistributable unless written permission obtained.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "PG 16–60 (profile groups)", "slots": ["H-slot", "F-slot", "E3-slot", "slot ~6.2–8.2 mm depending on series"], "notes": "Profile groups by basic measure: 16, 20, 30, 40, 45, 50, 60 mm. MayTec USA documents 20mm Series slot gauges (a≈5.2) and 30/40 Series (a≈8.2). Naming often by profile size not 'Nut N'."}
+    ],
+    "stock": {
+      "lengths_mm": [3000, 6000],
+      "min_cut_mm": null,
+      "cut_tolerance": "DIN EN 12020 part 2 (production deviations); exact cut length tolerance unverified",
+      "cut_to_length": true,
+      "source_url": "https://www.maytec-usa.com/engineering-resources/aluminum-profile-specifications",
+      "fetched": "2026-09-06"
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "MayCad free for authorised users. Sold via MayTec and authorised partners (e.g. FrameXpert NA). No public affiliate programme found. No public price API.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "MayTec 40x40",
+      "PG 40",
+      "MayCad",
+      "profile group 20",
+      "profile group 40"
+    ]
+  },
+  {
+    "id": "alutec-kk",
+    "name": "Alutec KK / ALUTEC KK s.r.o.",
+    "region": "EU",
+    "cad": {
+      "formats": ["Inventor .idcl libraries", "STEP via TraceParts", "3D catalogue"],
+      "url": "https://www.aluteckk.co.uk/3d-libraries-in-autodesk-inventor",
+      "account_required": false,
+      "fetched": "2026-09-06",
+      "notes": "Inventor Content Center libraries downloadable (Google Drive). TraceParts catalog: https://www.traceparts.com/en/search/alutec-kk-sro?CatalogPath=ALUTEC_500759239%3AF_ALUTEC. 3D catalogue on vendor site."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.aluteckk.lt/general-terms-conditions",
+      "quote": "unverified — General Terms & Conditions page located but no explicit CAD-redistribution clause extracted on 2026-09-06. TraceParts downloads subject to TraceParts ToS. Treat vendor solids as non-redistributable by default.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "Module 20 / groove 5", "slots": ["Rowek 5", "groove 5", "Nut 5"], "notes": "20x20, 20x40, etc."},
+      {"name": "Module 30 / groove 6", "slots": ["Rowek 6", "groove 6", "Nut 6"], "notes": ""},
+      {"name": "Module 30 / groove 8", "slots": ["Rowek 8", "groove 8", "Nut 8"], "notes": ""},
+      {"name": "Module 40 / groove 8", "slots": ["Rowek 8", "groove 8", "Nut 8"], "notes": ""},
+      {"name": "Module 40 / groove 10", "slots": ["Rowek 10", "groove 10", "Nut 10"], "notes": ""},
+      {"name": "Module 45 / groove 8", "slots": ["Rowek 8", "groove 8"], "notes": ""},
+      {"name": "Module 45 / groove 10", "slots": ["Rowek 10", "groove 10", "Nut 10"], "notes": ""},
+      {"name": "Module 50 / groove 10", "slots": ["Rowek 10", "groove 10"], "notes": ""}
+    ],
+    "stock": {
+      "lengths_mm": [6000],
+      "min_cut_mm": null,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://www.aluteckk.co.uk/standard-aluminium-profiles",
+      "fetched": "2026-09-06",
+      "notes": "Standard aluminium profiles page lists length 6 m; custom cutting offered. Structural system product pages list modules 20/5 through 50/10."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "Free Inventor libraries and online configurators (desks, conveyors, tubular). Inquiry e-shop / sales offices. No affiliate programme found. No public price API.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "Moduł 20 Rowek 5",
+      "Module 20 groove 5",
+      "20/5",
+      "30/6",
+      "40/8",
+      "45/10",
+      "ALUTEC KK"
+    ]
+  },
+  {
+    "id": "makerbeam",
+    "name": "MakerBeam",
+    "region": "EU",
+    "cad": {
+      "formats": ["STP", "DXF", "PDF", "SVG"],
+      "url": "https://www.makerbeam.com/technical-drawings/",
+      "account_required": false,
+      "fetched": "2026-09-06",
+      "notes": "Google Drive library linked from technical drawings page: https://drive.google.com/folderview?id=0B8h5C_ek_fmKUzFid0FhT1I1OFU&usp=sharing (also via FAQ https://www.makerbeam.com/service/)."
+    },
+    "licence": {
+      "may_redistribute_step": "unclear",
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.makerbeam.com/technical-drawings/",
+      "quote": "unverified — drawings offered freely for planning; no Creative Commons or redistribution licence text found on makerbeam.com technical-drawings / FAQ pages on 2026-09-06. Historical open-source marketing exists in third-party discussion but must not be invented as current licence. Do not redistribute STEP without written permission.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "MakerBeamXS", "slots": ["5x5 mm", "M1.2 hardware"], "notes": "miniature"},
+      {"name": "MakerBeam", "slots": ["10x10 mm", "M3 special square bolts"], "notes": "hollow core, threaded ends"},
+      {"name": "MakerBeamXL", "slots": ["15x15 mm", "M3 DIN934 nut in slot"], "notes": "compatible with many OpenBeam brackets"},
+      {"name": "OpenBeam (sold by MakerBeam)", "slots": ["15x15 mm", "M3"], "notes": "hollow core sized for M3 tap"}
+    ],
+    "stock": {
+      "lengths_mm": [40, 60, 100, 150, 200, 300, 360, 600, 750, 900, 1500],
+      "min_cut_mm": null,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://www.makerbeam.com/service/",
+      "fetched": "2026-09-06",
+      "notes": "Precut packs common; FAQ mentions cutting service for custom lengths; longest common stock 1500 mm. Exact min cut and tolerance unverified."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": false,
+      "price_api": false,
+      "design_software_free": false,
+      "notes": "No affiliate programme found 2026-09-06. Direct webshop (NL). UK partner for small private orders (Brexit). No design software giveaway. No price API.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "MakerBeam 10x10",
+      "MakerBeamXL 15x15",
+      "OpenBeam 15x15",
+      "MakerBeamXS 5x5"
+    ]
+  },
+  {
+    "id": "openbuilds",
+    "name": "OpenBuilds",
+    "region": "US",
+    "cad": {
+      "formats": ["STEP", "SolidWorks", "STL", "IGS"],
+      "url": "https://grabcad.com/openbuilds-1/models",
+      "account_required": false,
+      "fetched": "2026-09-06",
+      "notes": "Official GrabCAD library of OpenBuilds parts in STEP. Also builds.openbuilds.com/projectresources and Part Store. GrabCAD may require free GrabCAD account to download."
+    },
+    "licence": {
+      "may_redistribute_step": true,
+      "may_redistribute_derived_measurements": true,
+      "terms_url": "https://us.openbuilds.com/open-source-license",
+      "quote": "OpenBuilds Branded Works, Designs and Builds are shared through Open Source License: (CC BY-SA). Required attribution format: \"This design incorporates OpenBuilds, LLC design work(s) shared Open Source under the CC BY-SA 4.0 License.\" Support article: designs and parts licensed for open use under OSHW principles; trademarks (OpenBuilds, V-Slot, C-Beam) remain restricted without written permission (https://support.openbuilds.com/support/solutions/articles/65000167819-embracing-open-source-philosophy). Note: open-source-license page returned HTTP 500 on WebFetch 2026-09-06; content confirmed via search index and GrabCAD model attribution strings.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "V-Slot", "slots": ["V-Slot 20x20", "20x40", "20x60", "20x80", "40x40"], "notes": "V-groove T-slot hybrid for V-wheels"},
+      {"name": "C-Beam", "slots": ["C-Beam 40x80"], "notes": "C-channel linear rail family"},
+      {"name": "OpenRail", "slots": ["OpenRail"], "notes": "separate rail product; custom cut recommended"}
+    ],
+    "stock": {
+      "lengths_mm": [],
+      "min_cut_mm": 100,
+      "cut_tolerance": "±1 mm (whole mm increments)",
+      "cut_to_length": true,
+      "source_url": "https://support.openbuilds.com/support/solutions/articles/65000167794-custom-cuts-and-tapping",
+      "fetched": "2026-09-06",
+      "notes": "Custom cuts: add next longer stock length, note exact length at checkout; allow 5 mm per cut for blade kerf. Standard retail lengths sold on Part Store (exact stock list unverified without scrape). Support page returned 500 on direct fetch; content from search index 2026-09-06."
+    },
+    "monetisation": {
+      "affiliate": true,
+      "trade_account": false,
+      "price_api": false,
+      "design_software_free": false,
+      "notes": "Part Store Affiliate Program: https://affiliates.openbuildspartstore.com/ (announced 2019; still linked from store). No public price API found.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "V-Slot 20x20",
+      "VSlot20x20",
+      "C-Beam",
+      "CBeam",
+      "OpenBuilds V-Slot"
+    ]
+  },
+  {
+    "id": "minitec",
+    "name": "MiniTec",
+    "region": "EU/US",
+    "cad": {
+      "formats": ["STEP", "SolidWorks ZIP", "Inventor Content Center"],
+      "url": "https://www.minitecsolutions.com/downloads/",
+      "account_required": false,
+      "fetched": "2026-09-06",
+      "notes": "US distributor ZIP of STEP/SolidWorks; DE site Inventor libraries 2025–2027; US framing site STEP selector https://www.minitecframing.com/MiniTec_CAD_File_Location.html. iCAD Assembler free design tool."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://www.minitec.si/general-terms-and-conditions",
+      "quote": "unverified for CAD specifically — SI GTC discusses non-exclusive use of Products and confidentiality restrictions on disclosure to third parties, but is not a dedicated CAD licence. Copyright notices on US CAD pages ('All Rights Reserved'). Treat STEP as non-redistributable by default.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "Profile series 30", "slots": ["series 30", "groove ~8.5 mm class"], "notes": "basic grid 30 mm; M8 core thread class"},
+      {"name": "Profile series 45", "slots": ["series 45", "groove ~8.5 mm class"], "notes": "basic grid 45 mm; fully compatible within series"}
+    ],
+    "stock": {
+      "lengths_mm": [],
+      "min_cut_mm": null,
+      "cut_tolerance": "blanks ISO 2768-m (angle + length); usually half values of ISO 2768-m per MiniTec technical data PDF",
+      "cut_to_length": true,
+      "source_url": "https://www.minitec.co.uk/fileadmin/user_upload/downloads/downloads_en/technische-daten-profile-en.pdf",
+      "fetched": "2026-09-06",
+      "notes": "Exact stock bar lengths unverified on 2026-09-06."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "iCAD Assembler free. Sold via MiniTec and regional partners. No affiliate programme found. No public price API.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "MiniTec 45x45",
+      "profile series 45",
+      "profile series 30",
+      "iCAD Assembler"
+    ]
+  },
+  {
+    "id": "tslots",
+    "name": "TSLOTS by Bonnell Aluminum",
+    "region": "US",
+    "cad": {
+      "formats": ["STEP", "SolidWorks via TraceParts / DesignPro"],
+      "url": "https://tslots.com/",
+      "account_required": false,
+      "fetched": "2026-09-06",
+      "notes": "Complete CAD library on TraceParts; DesignPro SolidWorks add-in historically offered."
+    },
+    "licence": {
+      "may_redistribute_step": false,
+      "may_redistribute_derived_measurements": "unclear",
+      "terms_url": "https://tslots.com/",
+      "quote": "unverified — no dedicated CAD redistribution terms extracted from tslots.com on 2026-09-06. TraceParts downloads subject to TraceParts ToS. Default: do not redistribute STEP.",
+      "fetched": "2026-09-06"
+    },
+    "families": [
+      {"name": "Metric / Fractional / B-Series", "slots": ["TSLOTS metric", "fractional", "B-Series"], "notes": "US extruder; naming differs from EU Nut-N systems"}
+    ],
+    "stock": {
+      "lengths_mm": [],
+      "min_cut_mm": null,
+      "cut_tolerance": "unverified",
+      "cut_to_length": true,
+      "source_url": "https://tslots.com/",
+      "fetched": "2026-09-06",
+      "notes": "Cut/extrude/anodize services advertised; stock lengths unverified."
+    },
+    "monetisation": {
+      "affiliate": false,
+      "trade_account": true,
+      "price_api": false,
+      "design_software_free": true,
+      "notes": "Distributor network; DesignPro free add-in (availability verify on current site). No affiliate programme found.",
+      "fetched": "2026-09-06"
+    },
+    "naming_aliases": [
+      "TSLOTS",
+      "Bonnell Aluminum T-slot"
+    ]
+  }
+]

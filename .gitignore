@@ -1,0 +1,23 @@
+# vendor solids — measure locally, never commit
+*.step
+*.stp
+*.STEP
+*.STP
+
+# build / tool output
+out/
+dist/
+build/
+*.egg-info/
+.eggs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+uv.lock
+
+# OS / editor
+.DS_Store
+*.swp
