@@ -1,0 +1,86 @@
+{
+  "aluminium_density_nominal_kg_m3": 2700.0,
+  "area_mm2": 162.0393,
+  "core_thread": "M6",
+  "density_used_kg_m3": 2700.0,
+  "effective_density_kg_m3": 1093.8,
+  "fastener_family": "nut-6",
+  "groove_depth_mm": 5.5,
+  "groove_nominal_mm": 6.0,
+  "id": "20x20-b-typ-nut-6",
+  "ixx_mm4": 6684.88,
+  "iyy_mm4": 6684.85,
+  "mass_per_m_kg": 0.4375,
+  "neck_depth_from_mm": 0.5,
+  "neck_depth_to_mm": 1.25,
+  "neck_width_mm": 6.2,
+  "notes": "Measured from vendor STEP. Mass uses aluminium density 2700 kg/m³ on the measured cross-section (effective density is for the outer envelope, not solid bar).",
+  "outer_mm": [
+    20.0,
+    20.0
+  ],
+  "product_name": "20x20 B-Typ Nut 6",
+  "product_url": "https://www.motedis.com/en/Profile-20x20-B-type-slot-6",
+  "provenance": {
+    "area_mm2": "measured",
+    "core_thread": "vendor",
+    "fastener_family": "vendor",
+    "groove_depth_mm": "vendor",
+    "groove_nominal_mm": "vendor",
+    "ixx_mm4": "measured",
+    "iyy_mm4": "measured",
+    "mass_per_m_kg": "measured",
+    "neck_width_mm": "measured",
+    "outer_mm": "measured",
+    "slot_bottom_mm": "measured",
+    "slot_scan": "measured"
+  },
+  "schema_version": 1,
+  "slot_bottom_mm": 5.5,
+  "slot_scan": [
+    {
+      "depth_from_mm": 0.0,
+      "depth_to_mm": 0.38,
+      "width_mm": 7.3
+    },
+    {
+      "depth_from_mm": 0.38,
+      "depth_to_mm": 1.38,
+      "width_mm": 6.35
+    },
+    {
+      "depth_from_mm": 1.38,
+      "depth_to_mm": 1.62,
+      "width_mm": 7.6
+    },
+    {
+      "depth_from_mm": 1.62,
+      "depth_to_mm": 1.88,
+      "width_mm": 9.6
+    },
+    {
+      "depth_from_mm": 1.88,
+      "depth_to_mm": 3.88,
+      "width_mm": 11.25
+    },
+    {
+      "depth_from_mm": 3.88,
+      "depth_to_mm": 4.62,
+      "width_mm": 9.33
+    },
+    {
+      "depth_from_mm": 4.62,
+      "depth_to_mm": 5.38,
+      "width_mm": 7.47
+    },
+    {
+      "depth_from_mm": 5.38,
+      "depth_to_mm": 5.5,
+      "width_mm": 2.8
+    }
+  ],
+  "source_step_filename": "Motedis Profile 20x20 B-Type slot 6.stp",
+  "source_step_sha256": "af8c0578979d22ec13627f88ac42a40f4b31b07c4f7599aa832684b6e7250f59",
+  "source_step_url": "https://www.motedis.com/shop/products_files/motedis-profile-20x20-b-type-slot-6.zip",
+  "vendor": "motedis"
+}
